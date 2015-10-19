@@ -1,6 +1,7 @@
 #ifndef CANVAS_H
 #define CANVAS_H
 
+#include <QGenericMatrix>
 #include <QWidget>
 #include <QPainter>
 #include <QTime>
@@ -17,6 +18,7 @@ class Canvas : public QWidget
 public:
     explicit Canvas(QWidget *parent = 0);
     ~Canvas();
+    void update(QGenericMatrix<>)
 
 
 private:
