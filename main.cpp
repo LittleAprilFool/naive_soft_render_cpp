@@ -1,7 +1,7 @@
 #include "canvas.h"
-#include <QApplication>
-
 #include "cube.h"
+#include "camera.h"
+#include <QApplication>
 
 int main(int argc, char *argv[])
 {
@@ -14,6 +14,8 @@ int main(int argc, char *argv[])
 
     cube.rotate(90, 0, 0);
     cube.printCube();
+
+    Camera camera(-200, 200, 200, -200, -400, -200);
 
     return a.exec();
 }
