@@ -24,5 +24,3 @@ HEADERS  += canvas.h \
     camera.h
 
 FORMS    += canvas.ui
-
-OUTPUT += Console

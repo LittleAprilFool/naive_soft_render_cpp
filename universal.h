@@ -6,6 +6,8 @@
 #include <QtMath>
 #include <QDebug>
 
+typedef QVector3D Color;
+
 class Universal
 {
 public:

@@ -10,10 +10,5 @@ int main(int argc, char *argv[])
     Canvas w;
     w.show();
 
-    Cube cube(10, 10, 0, 20);
-    Camera camera(-200, 200, 200, -200, -400, -200);
-
-    w.update(camera.projectionCube(cube.point));
-
     return a.exec();
 }
